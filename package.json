@@ -1,0 +1,17 @@
+{
+    "name": "natures",
+    "version": "1.0.0",
+    "description": "landing page for natures",
+    "main": "index.js",
+    "dependencies": {
+        "npm": "^6.14.10"
+    },
+    "devDependencies": {
+        "node-sass": "^5.0.0"
+    },
+    "scripts": {
+        "compile:sass": "node-sass sass/main.scss css/style.css -w"
+    },
+    "author": "Dimitris",
+    "license": "ISC"
+}
